@@ -55,15 +55,15 @@ val: ../datasets/coco128/images/train2017
 ```
 說明：
 
---data: 指定資料集設定檔（這裡是官方 coco128）
+- `--data`: 指定資料集設定檔（這裡是官方 coco128）
 
---cfg: 模型架構（yolov5s = small）
+- `--cfg`: 模型架構（yolov5s = small）
 
---weights: 預訓練權重（會自動下載）
+- `--weights`: 預訓練權重（會自動下載）
 
---epochs: 訓練 3 個回合（可改大一點）
+- `--epochs`: 訓練 3 個回合（可改大一點）
 
---batch-size: 每批訓練的圖片數
+- `--batch-size`: 每批訓練的圖片數
 
 <img width="1769" height="708" alt="step 4" src="https://github.com/user-attachments/assets/cb639232-f594-4869-88c7-8421806965d9" />
 
